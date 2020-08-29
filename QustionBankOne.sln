@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QustionBankOne", "QustionBankOne\QustionBankOne.csproj", "{6B2B51A8-546F-4252-84D3-75096D190089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuestionBank.BusinessService", "QuestionBank.BusinessService\QuestionBank.BusinessService.csproj", "{1FCE6B2E-9612-4001-916C-D7A8134793D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuestionBank.BusinessService", "QuestionBank.BusinessService\QuestionBank.BusinessService.csproj", "{1FCE6B2E-9612-4001-916C-D7A8134793D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetTopQuestion", "GetTopQuestion\GetTopQuestion.csproj", "{55872A85-6E35-4A28-8D08-BA827CE6713B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1FCE6B2E-9612-4001-916C-D7A8134793D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FCE6B2E-9612-4001-916C-D7A8134793D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FCE6B2E-9612-4001-916C-D7A8134793D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55872A85-6E35-4A28-8D08-BA827CE6713B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55872A85-6E35-4A28-8D08-BA827CE6713B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55872A85-6E35-4A28-8D08-BA827CE6713B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55872A85-6E35-4A28-8D08-BA827CE6713B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
