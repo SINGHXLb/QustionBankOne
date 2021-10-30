@@ -10,11 +10,11 @@ namespace QuestionBank.Design.Interface
                 
         
         //Question 
-        bool add(Question doc);
-        bool update(Question doc);
+        bool add(QuestionItem doc);
+        bool update(QuestionItem doc);
         bool remove(String docId);
-        bool commit();
-        Question get(String questionId);        
+       
+        QuestionItem get(String questionId);        
         //
 
 
