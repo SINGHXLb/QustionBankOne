@@ -19,7 +19,7 @@ namespace QuestionBank.Design.Model
         string DraftBy { get; set; }
         DateTime? DraftOn { get; set; }
         bool IsValidated { get; set; }
-        string? ValidatedBy { get; set; }
+        string ValidatedBy { get; set; }
         DateTime? ValidatedOn { get; set; }
         bool IsPublic { get; set; }
         string MadePublicBy { get; set; }
